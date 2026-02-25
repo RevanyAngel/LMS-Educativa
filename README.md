@@ -1,12 +1,12 @@
-# 🎓 Educativa LMS Landing Page
+# Educativa LMS Landing Page
 
 Sebuah Landing Page interaktif untuk platform **Learning Management System (LMS)** yang dirancang khusus untuk ekosistem **Educativa.id**. Proyek ini fokus pada desain responsif, interaksi dinamis, dan pengalaman pengguna yang modern bagi mahasiswa serta peneliti di Indonesia.
 
 ---
 
-## 💻 Live Preview
+## Live Preview
 
-> 
+> https://revanyangel.github.io/LMS-Educativa/
 
 * **Desktop**
 <p align="center">
@@ -15,15 +15,15 @@ Sebuah Landing Page interaktif untuk platform **Learning Management System (LMS)
 
 * **Tablet**
 <p align="center">
-  <img src="assets/images/preview_tablet.png" width="600">
+  <img src="assets/images/preview_tablet.png" width="400">
 </p>
 
 * **Mobile**
 <p align="center">
-  <img src="assets/images/preview_HP.png" width="600">
+  <img src="assets/images/preview_HP.png" width="200">
 </p>
 
-## 🎯 Deskripsi Utama
+## Deskripsi Utama
 Membangun antarmuka landing page yang menarik dan fungsional untuk mendukung kebutuhan akademik, mencakup:
 * **Hero Section** yang informatif.
 * **Product List** dalam format grid yang responsif.
@@ -31,7 +31,7 @@ Membangun antarmuka landing page yang menarik dan fungsional untuk mendukung keb
 
 ---
 
-## ✨ Fitur Utama
+## Fitur Utama
 
 ### 1. Navbar (Navigasi & Tracking)
 * **Logo & Menu:** Navigasi jelas yang mencakup Home, Courses, About, dan Contact.
@@ -56,7 +56,7 @@ Membangun antarmuka landing page yang menarik dan fungsional untuk mendukung keb
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+## Teknologi yang Digunakan
 * **HTML5:** Struktur semantik untuk web yang standar.
 * **CSS3:** Layouting menggunakan Flexbox & Grid, CSS Variables, dan animasi transisi.
 * **Vanilla JavaScript (ES6+):** Manipulasi DOM, Event Handling, dan State Management sederhana.
