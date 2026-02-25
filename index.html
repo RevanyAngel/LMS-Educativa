@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>Educativa Indonesia</title>
+        <meta name="description" content="Platform riset, skripsi, olah data, dan publikasi jurnal terpercaya di Indonesia.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="nav__container">
+                <nav class="nav" aria-label="Main navigation">
+                    <a href="/" class="nav__logo">
+                        <img src="assets/icons/educativa_logo.png" alt="Logo Educativa">
+                    </a>
+
+                    <ul class="nav__menu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#courses">Courses</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+
+                    <div class="nav__actions">
+                        <button class="nav-icon wishlist-display" id="wishlistBtn">
+                            <img src="assets/icons/wishlist_logo.png" alt="wishlist">
+                            <span class="badge-count wishlist" id="wishlistCount">0</span>
+                        </button>
+                        <button class="nav-icon cart-display" id="cartBtn">
+                            <img src="assets/icons/cart_logo.png" alt="cart">
+                            <span class="badge-count" id="cartCount">0</span>
+                        </a>
+                    </div>
+
+                     <button class="nav__toggle" aria-label="Open menu">
+                        <span class="nav__toggle-bar"></span>
+                        <span class="nav__toggle-bar"></span>
+                        <span class="nav__toggle-bar"></span>
+                    </button>
+                </nav>
+            </div>
+        </header>
+        <section class="hero">
+            <div class="hero__wrapper">
+                <div class="hero-content">
+                    <h1>Selesaikan Riset & Tugas Akhir Lebih Efisien Bersama Partner Akademik #1 di Indonesia</h1>
+                    <p>Gabung bersama 56.000+ mahasiswa S1-S3, dosen, dan peneliti yang telah sukses. Mulai dari bimbingan skripsi, olah data, hingga publikasi jurnal internasional, semua dalam satu platform terpercaya.</p>
+                    <div class="hero-btn-container">
+                        <!-- <button class="btn__hero">Jelajahi Kursus</button> -->
+                        <a href="#courses" class="btn__hero">Jelajahi Kursus</a>
+                        <a class="btn__hero promo" id="openPromo">Lihat Promo</a>
+                        <!-- <button class="btn__hero promo" id="openPromo">Lihat Promo</button> -->
+                    </div>
+                </div>
+                <div class="hero__image">
+                    <img src="assets/images/student.png" class="hero-img">
+                </div>
+            </div>
+        </section>
+        <section class="courses" id="courses">
+            <div class="courses-container">
+                <header class="courses-header">
+                    <h2>Jelajahi Kursus Kami</h2>
+                    <p>Jelajahi berbagai macam kursus yang tersedia untuk menunjang pendidikanmu menjadi lebih baik lagi!</p>
+                </header>
+                <div id="coursesGrid" class="courses-grid"></div>
+            </div>
+        </section>
+        <div class="modal" id="promoModal" aria-hidden="true">
+            <div class="modal-overlay"></div>
+
+            <div class="modal-content" role="dialog" aria-modal="true" aria-label="Promo">
+                <button class="modal-close" id="modalClose" aria-label="Close">×</button>
+
+                <img src="assets/images/promo.png" alt="Promo" class="modal-image">
+            </div>
+         </div>            
+        <script src="script.js"></script>
+    </body>
+</html>
